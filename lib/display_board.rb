@@ -1,7 +1,7 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 
-board = ["   ", "   ", "   ", "   ", " X ", "   ", "   ", "   ", "   "]
+board = ["   ", "   ", " 0 ", "   ", " X ", "   ", "   ", "   ", "   "]
 
 def display_board(space)
   puts "#{space[0]}|#{space[1]}|#{space[2]}"
