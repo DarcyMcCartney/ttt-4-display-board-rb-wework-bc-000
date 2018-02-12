@@ -3,12 +3,12 @@
 
 board = ["   ", "   ", "   ", "   ", "   ", "   ", "   ", "   ", "   "]
 
-def display_board
-  puts "#{board[0]}|#{board[1]}|#{board[2]}"
+def display_board(move)
+  puts "#{move[0]}|#{move[1]}|#{move[2]}"
   puts "-----------"
-  puts "#{board[3]}|#{board[4]}|#{board[5]}"
+  puts "#{move[3]}|#{move[4]}|#{move[5]}"
   puts "-----------"
-  puts "#{board[6]}|#{board[7]}|#{board[8]}"
+  puts "#{move[6]}|#{move[7]}|#{move[8]}"
 end
 
 display_board(board)
